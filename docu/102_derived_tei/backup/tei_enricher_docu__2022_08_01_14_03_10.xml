@@ -650,22 +650,15 @@ F = ǧ       //djim</egXML>
 
             <div xml:id="dv_linguistic_functions">
                <head>Linguistic functions</head>
-<p>The <name type="application">˂TEI˃Enricher</name> provides useful functions for processing linguistic corpora.
-These funtions can be found in the "Ling. funcs." tab in the right-hand window.</p>
+
                <div xml:id="dv_chunking">
                   <head>Chunking</head>
-                  <p>The chunking function inserts sentence tags into a text. Your text is split at each of the defined
-                  punctuation marks. Each sentence is now also an s element. Make sure all punctuation marks used
-                  in your transcription are included.</p>
-                  <p>For spoken text transcribed in EXMARaLDA, this step is <hi rend="bold">not</hi> needed. The
-                  <name type="application">EXMARaLDA Partitur Editor</name></p> segments your text into utterance elements
-                  upon exporting the transcription. This is the preferred element for spoken text.</p>
+                  <p>The chunking function inserts sentence tags into a text.</p>
                </div>
 
                <div xml:id="dv_tokenisation">
                   <head>Tokenisation</head>
-                  <p>The tokeniser isolates words, whitespace and puncuation marks. Each word will be nested in a w element. This gives you the opportunity
-                  to annotate each word separately.</p>
+                  <p>The tokeniser isolates words, whitespace and puncuation marks.</p>
                </div>
 
                <div xml:id="dv_transcription">

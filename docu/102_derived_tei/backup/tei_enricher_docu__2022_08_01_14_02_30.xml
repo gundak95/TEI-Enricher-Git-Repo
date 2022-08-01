@@ -80,17 +80,17 @@
                <p>Constraints: Due to some components in <name type="application">˂TEI˃Enricher</name>, the software
                only runs on Windows.
                To use it on your computer, follow these steps.It is important to download and extract the .zip-file
-               in a file directory where you can write --&gt;
+               in a file directory where you can write --> 
             <hi rend="bold">not</hi> directly on the Desktop, but rather create a new folder in :C under your user and
             unzip the  <name type="application">˂TEI˃Enricher</name> file there.</p>
                </div>
-
+               
 <div xml:id="dv_step_2_initial_settings">
                   <head>STEP 2: Initial Settings</head>
                   <p>To be able to perform XSLT transformations with Saxon, you will need Java on your computer and let
                   <name type="application">˂TEI˃Enricher</name> know where it can find it. This information is stored in the
                   general configuration.</p>
-                  <p>The .xml file you'll be working on is always saved in "name of folder you assigned" --&gt; 102_derived_tei.
+                  <p>The .xml file you'll be working on is always saved in "name of folder you assigned" --> 102_derived_tei.
                   </p></div>
 
 
@@ -100,7 +100,7 @@
                      on the icon or the execuatble (file with the exe file extension).</p>
                </div>
 
-
+ 
                <div xml:id="dv_step_4_create_a_new_project">
                   <head>STEP 4: Create a new project</head>
                   <p>Press the <name type="appPart">Open empty editor button</name> to open an empty editor.</p>
@@ -117,8 +117,8 @@
                   <p>The editor has two parts: on the left side there is the XML
                      text, on the right side the browser, the XSLT editor and the CSS editor are located.</p>
                </div>
-
-
+               
+            
 
             <div xml:id="dv_main_editor_components">
                <head>Main Editor Components</head>
@@ -364,7 +364,7 @@
                <div xml:id="dv_extracting_elements_to_list">
                   <head>Extracting elements from documents</head>
                   <p>On the <name type="appPart">Filelist tabsheet</name> you can extract elements from a list of files.
-                     Imageine you want to control all the contents of all the geo elements
+                     Imagine you want to control all the contents of all the geo elements
                      in a number of documents.</p>
 
                   <div xml:id="dv_step_create_a_filelist">
@@ -453,7 +453,7 @@ F = ǧ       //djim</egXML>
                      the cursor where you want to insert the snippet. Then proceed as follows:</p>
                   <table>
                      <row><cell>Step 1</cell>
-                        <cell>Push F6 to transfer thefocus to the <name type="appPart">Code snippets tabsheet</name>. </cell></row>
+                        <cell>Push F6 to transfer the focus to the <name type="appPart">Code snippets tabsheet</name>. </cell></row>
                      <row><cell>Step 2</cell><cell>Select the snippet you need.</cell></row>
                      <row><cell>Step 3</cell><cell>Press F5 to copy the snippet to XSLT.</cell></row>
                   </table>
@@ -650,22 +650,15 @@ F = ǧ       //djim</egXML>
 
             <div xml:id="dv_linguistic_functions">
                <head>Linguistic functions</head>
-<p>The <name type="application">˂TEI˃Enricher</name> provides useful functions for processing linguistic corpora.
-These funtions can be found in the "Ling. funcs." tab in the right-hand window.</p>
+
                <div xml:id="dv_chunking">
                   <head>Chunking</head>
-                  <p>The chunking function inserts sentence tags into a text. Your text is split at each of the defined
-                  punctuation marks. Each sentence is now also an s element. Make sure all punctuation marks used
-                  in your transcription are included.</p>
-                  <p>For spoken text transcribed in EXMARaLDA, this step is <hi rend="bold">not</hi> needed. The
-                  <name type="application">EXMARaLDA Partitur Editor</name></p> segments your text into utterance elements
-                  upon exporting the transcription. This is the preferred element for spoken text.</p>
+                  <p>The chunking function inserts sentence tags into a text.</p>
                </div>
 
                <div xml:id="dv_tokenisation">
                   <head>Tokenisation</head>
-                  <p>The tokeniser isolates words, whitespace and puncuation marks. Each word will be nested in a w element. This gives you the opportunity
-                  to annotate each word separately.</p>
+                  <p>The tokeniser isolates words, whitespace and puncuation marks.</p>
                </div>
 
                <div xml:id="dv_transcription">
@@ -1098,7 +1091,7 @@ These funtions can be found in the "Ling. funcs." tab in the right-hand window.<
                   <p><figure><graphic url="../601_imgs_raster/gotoquerylist_002.png"/></figure></p>
                </div>
             </div>
-
+         
       </body>
    </text>
 </TEI>
