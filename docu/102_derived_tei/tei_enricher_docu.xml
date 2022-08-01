@@ -74,7 +74,7 @@
                <head>Getting Started</head>
                <p>The following lines take you through the basic steps in
                   editing XML texts with <name type="application">˂TEI˃Enricher</name>.</p>
-
+            </div>
                <div xml:id="dv_step_1_installing_the_program">
                   <head>STEP 1: Installing the program</head>
                <p>Constraints: Due to some components in <name type="application">˂TEI˃Enricher</name>, the software
@@ -83,6 +83,7 @@
                in a file directory where you can write --> 
             <hi rend="bold">not</hi> directly on the Desktop, but rather create a new folder in :C under your user and
             unzip the  <name type="application">˂TEI˃Enricher</name> file there.</p>
+               </div>
                
 <div xml:id="dv_step_2_initial_settings">
                   <head>STEP 2: Initial Settings</head>
@@ -90,7 +91,7 @@
                   <name type="application">˂TEI˃Enricher</name> know where it can find it. This information is stored in the
                   general configuration.</p>
                   <p>The .xml file you'll be working on is always saved in "name of folder you assigned" --> 102_derived_tei.
-                  </p>
+                  </p></div>
 
 
                <div xml:id="dv_step_3_starting_the_program">
@@ -106,6 +107,9 @@
                   <p>Right click <name type="appPart">Create New Environment + New Doc. from Templ.</name> to
                      create the environment (HTML output path, CSS file, XSLT file etc.)
                      for the new document.</p>
+                     <p>When you create an environment and document from a template, a structure for your files and
+                     directories is created automatically, with basic xsl documents already provided. The file you are
+                     working on will be stored in the 102_derived_tei folder if you are using the ACDH-CH template.</p>
                </div>
 
                <div xml:id="dv_step_5_create_a_text">
@@ -113,7 +117,8 @@
                   <p>The editor has two parts: on the left side there is the XML
                      text, on the right side the browser, the XSLT editor and the CSS editor are located.</p>
                </div>
-            </div>
+               
+            
 
             <div xml:id="dv_main_editor_components">
                <head>Main Editor Components</head>
@@ -132,7 +137,7 @@
                <div xml:id="dv_editor_form">
                   <head>Editor form</head>
                   <p>This is the main control of the application. The most salient feature
-                     is the dual structure which helps editors keep track of their editing.</p>
+                     is the dual structure which helps editors keep track of their editing.</p></div>
 
                   <div xml:id="dv_basic_editor_functions">
                      <head>Basic Editor Functions</head>
@@ -215,7 +220,7 @@
                   <p>Sometimes it is only necessary to quickly look at a file or to browse through
                      a large number of files to inspect them. In such situations it can be cumbersome
                      to open a separate editor form for each file. The preview functionality
-                     allows you to quickly go hrough a list of files and open them just
+                     allows you to quickly go through a list of files and open them just
                      for looking at.</p>
                </div>
 
@@ -1086,7 +1091,7 @@ F = ǧ       //djim</egXML>
                   <p><figure><graphic url="../601_imgs_raster/gotoquerylist_002.png"/></figure></p>
                </div>
             </div>
-         </div>
+         
       </body>
    </text>
 </TEI>
