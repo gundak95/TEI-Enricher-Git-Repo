@@ -100,16 +100,16 @@
                </div>
 
  
-               <div xml:id="dv_step_2_create_a_new_project">
-                  <head>STEP 2: Create a new project</head>
+               <div xml:id="dv_step_4_create_a_new_project">
+                  <head>STEP 4: Create a new project</head>
                   <p>Press the <name type="appPart">Open empty editor button</name> to open an empty editor.</p>
                   <p>Right click <name type="appPart">Create New Environment + New Doc. from Templ.</name> to
                      create the environment (HTML output path, CSS file, XSLT file etc.)
                      for the new document.</p>
                </div>
 
-               <div xml:id="dv_step_3_create_a_text">
-                  <head>STEP 3: Creating a text</head>
+               <div xml:id="dv_step_5_create_a_text">
+                  <head>STEP 5: Creating a text</head>
                   <p>The editor has two parts: on the left side there is the XML
                      text, on the right side the browser, the XSLT editor and the CSS editor are located.</p>
                </div>
