@@ -1,0 +1,62 @@
+ <div xml:id="dv_step_4_create_a_new_project">
+                  <head>STEP 4: Create a new project</head>
+                  <p>Press the <name type="appPart">Open empty editor button</name> to open an empty editor.</p>
+                  <p>Right click <name type="appPart">Create New Environment + New Doc. from Templ.</name> to
+                     create the environment (HTML output path, CSS file, XSLT file etc.)
+                     for the new document.</p>
+                     <p>When you create an environment and document from a template, a structure for your files and
+                     directories is created automatically, with basic xsl documents already provided. The file you are
+                     working on will be stored in the 102_derived_tei folder if you are using the ACDH-CH template.</p>
+               </div>
+
+<div xml:id="dv_add_langID">
+<head>STEP : Add a language and ID to your utterances</head>
+<p>If you want to have a text with its translation, there is a tested workflow how to do this, which is as follows.
+First, you want to assign a language to the utterances you have in your transcribed file. Go to the Query form (Ctrl+F) and replace <u
+(the beginning of your utterance tag) by <u xml:lang="ar", for Arabic, or another ISO language code if your transcription is in a 
+different language.</p>
+<p>Then, in order to add another utterance in the same annotation block for the translation, again in the Query form, you replace </u>, the end of
+your utterance with the xml:lang="ar" by </u><u xml:lang="en" xml:id=""></u>, or use a different ISO language code if you are not translating to English.
+The second part lets you assign an xml:id later, for being able to call the translated utterance by its ID.
+</p>
+<p>To be able to reference your translated utterance, you will want to assign an ID to it. Go to the "ID" tab of the query form. Below you
+find an example of what parameters to use to assign an ID for each translated utterance. In the same manner you can of course also assign IDs to any
+other type of element.</p>
+
+<div xml:id="dv_linguistic_functions">
+               <head>Linguistic functions</head>
+<p>The <name type="application">˂TEI˃Enricher</name> provides useful functions for processing linguistic corpora.
+These funtions can be found in the "Ling. funcs." tab in the right-hand window.</p>
+               <div xml:id="dv_chunking">
+                  <head>Chunking</head>
+                  <p>The chunking function inserts sentence tags into a text. Your text is split at each of the defined
+                  punctuation marks. Each sentence is now also an s element. Make sure all punctuation marks used
+                  in your transcription are included.</p>
+                  <p>For spoken text transcribed in EXMARaLDA, this step is <hi rend="bold">not</hi> needed. The
+                  <name type="application">EXMARaLDA Partitur Editor</name></p> segments your text into utterance elements
+                  upon exporting the transcription. This is the preferred element for spoken text. For the <name>Partitur Editor</name>, every stretch of
+                  speech by the same speaker that is uninterrupted by another speaker or a punctuation mark is an utterance.</p>
+               </div>
+
+               <div xml:id="dv_tokenisation">
+                  <head>Tokenisation</head>
+                  <p>The tokeniser isolates words, whitespace and puncuation marks. Each word will be the content of a w element. This gives you the opportunity
+                  to annotate each word separately.</p>
+                  <p>The <name type="application">˂TEI˃Enricher</name> provides this function. By clicking on "Tokenise" in the "Ling.funcs." form, it creates w elements. Mind
+                  that the <name type="application">˂TEI˃Enricher</name> recognises each whitespace and punctuation mark as a separator, according to what you define. Make sure each type of punctuation
+                  you used in your transcription is recognised as a separator. Also make sure that morpheme boundaries are clear, and each morpheme that you want to annotate is separated
+                  by a whitespace or a punctuation mark.</p>
+
+<div xml:id="dv_byProject">
+<head>WIBARAB example workflow</head>
+<p>
+If you want to have a text with its translation, there is a tested workflow how to do this, which is as follows.
+First, you want to assign a language ID to the utterances you have in your transcribed file. Go to the Query form (Ctrl+F) and replace <u
+(the beginning of your utterance tag) by <u xml:lang="ar", for Arabic, or another ISO language code if your transcription is in a 
+different language.</p>
+<p>Then, in order to add another utterance in the same annotation block for the translation, again in the Query form, you replace </u>, the end of
+your utterance with the xml:lang="ar" by </u><u xml:lang="en" xml:id=""></u>, or use a different ISO language code if you are not translating to English.
+The second part lets you assign an xml:id later, for being able to call the translated utterance by its ID.
+</p>
+<p>To be able to reference your translated utterance, you will want to assign an ID to it. Go to the "ID" tab of the query form. Below you
+find an example of what parameters to use to assign an ID for each translated utterance.
